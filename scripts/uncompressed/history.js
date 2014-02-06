@@ -525,7 +525,7 @@
 			}
 
 			// Return
-			return fullUrl.replace(/\#$/,'');
+			return decodeURI(fullUrl.replace(/\#$/,''));
 		};
 
 		/**
